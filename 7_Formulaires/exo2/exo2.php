@@ -1,8 +1,3 @@
-<?php
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +27,11 @@
     </ul>
   </div>
 </nav>
+    <form action="user.php" method="POST">
+    <p><label>prenom : <input type="text" name="prenom" /></label></p>
+    <p><label>nom : <input type="text" name="nom" /></label></p>
 
+    <p><input type="submit" /></p>
+    </form>
 </body>
 </html>
